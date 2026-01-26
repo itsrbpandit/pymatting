@@ -219,9 +219,8 @@ def main():
 
     shutil.copytree("static", "build")
 
-    lines = read_text(src_dir / "__about__.py").split("\n")
-    version_line = next(line for line in lines if "__version__" in line)
-    version = version_line.split("=")[-1].strip('" \'')
+    text = read_text(src_dir.parent / "pyproject.toml")
+    version, = re.findall(r'^version = "(\d+\.\d+\.\d+)"$', text, flags=re.MULTILINE)
 
     def write_website(html_path, title, content):
         head = [
