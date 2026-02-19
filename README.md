@@ -152,6 +152,7 @@ See also the list of [contributors](https://github.com/pymatting/pymatting/contr
 * [PaddleSeg](https://github.com/PaddlePaddle/PaddleSeg) - a library for a wide range of image segmentation tasks.
 * [chaiNNer](https://github.com/chaiNNer-org/chaiNNer) - a node-based image processing GUI.
 * [LSA-Matting](https://github.com/kfeng123/LSA-Matting) - improving deep image matting via local smoothness assumption.
+* [Prickly Gorse Interactive Background Remover](https://github.com/pricklygorse/Interactive-Image-Background-Remover) - a user friendly GUI application for detailed background removal using several models and post-processing features
 
 ## License
 
