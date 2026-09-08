@@ -77,6 +77,12 @@ cutout(
     "lemur_cutout.png")
 ```
 
+Alternatively, you can use `pymatting` CLI tool.
+
+```bash
+pymatting data/lemur/lemur.png data/lemur/lemur_trimap.png lemur_cutout.png
+```
+
 [More advanced examples](https://pymatting.github.io/examples.html)
 
 ## Trimap Construction

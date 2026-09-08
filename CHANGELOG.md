@@ -1,3 +1,7 @@
+### 1.1.16
+
+- Add `pymatting` CLI tool.
+
 ### 1.1.15
 
 - Update packaging from setup.py to pyproject.toml.
